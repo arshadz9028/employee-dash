@@ -1,0 +1,40 @@
+:root {
+  --background: #f3f6f4;
+  --foreground: #202b26;
+  --surface: #ffffff;
+  --muted: #607069;
+  --border: #dce4df;
+  --accent: #426b5a;
+  --accent-hover: #345746;
+  --danger: #a6423c;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
